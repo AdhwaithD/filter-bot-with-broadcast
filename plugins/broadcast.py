@@ -9,7 +9,7 @@ import asyncio
 import datetime
 import aiofiles
 from random import choice 
-from config import Config
+from sample_config import Config
 from pyrogram import Client, filters
 from pyrogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from pyrogram.errors import FloodWait, InputUserDeactivated, UserIsBlocked, PeerIdInvalid
